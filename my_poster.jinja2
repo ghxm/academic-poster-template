@@ -10,7 +10,7 @@
 {# ‘webpage_title’ is displayed in the browser’s top bar #}
 {% set webpage_title = poster_title + " — " + poster_subtitle %}
 {# ‘project_url’ is used in the footer and for the logo #}
-{% set project_url = "https://github.com/cpitclaudel/academic-poster-template" %}
+{% set project_url = "https://www.mxhg.org" %}
 
 {# Publication info is hidden by default (.publication-info in CSS) #}
 {% set pub_datetime_iso = "2020-09-08" %}
@@ -48,7 +48,12 @@
 {% endblock %}
 
 {% block contact_information %}
-  clement.pitclaudel@live.com
+  maximilian.haag@gsi.uni-muenchen.de
+{% endblock %}
+
+{% block additional_contact_information %}
+  <span class="regular">Twitter:</span> @max_haag
+  <span class="regular">Github:</span> @ghxm
 {% endblock %}
 
 {### Contents ###}

@@ -84,12 +84,10 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
       <address class="monospace">
         {%- block contact_information -%}{%- endblock -%}
       </address>
-      {# Feel free to remove the block below, but keep the comment in <head> #}
-      {% block credits %}
-        <span class="credits">
-          Based on an <a href="https://github.com/cpitclaudel/academic-poster-template">open poster template</a>.
-        </span>
-      {% endblock %}
+      {# Additional contact information #}
+      <address class="monospace">
+        {%- block additional_contact_information -%}{%- endblock -%}
+      </address>
     </footer>
   </body>
 </html>
