@@ -1,5 +1,8 @@
 This is a fork of cpitclaudel's `academic-poster-template`.
 
+Run `./render.py custom_poster_template.jinja2 output.html` to render the poster.
+
+The templates folder contains the modified original template used as a base for `my_poster.jinja2`.
 
 See original `README.md` below.
 
