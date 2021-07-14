@@ -1,3 +1,10 @@
+This is a fork of cpitclaudel's `academic-poster-template`.
+
+
+See original `README.md` below.
+
+-----
+
 ==========================================================
  A template for (more) accessible posters, using HTML+CSS
 ==========================================================
