@@ -6,9 +6,9 @@ The templates folder contains the modified original template used as a base for 
 
 ## Usage
 
-   ``
-   ./render.py my_poster.jinja2 output.html --bibtex library.bib
-   ``
+``
+./render.py my_poster.jinja2 output.html --bibtex library.bib
+``
 
 See original ``README.rst`` below.
 
